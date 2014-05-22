@@ -10,7 +10,7 @@ function Vector(x, y, z) {
 }
  
 function PointCollection() {
-    this.mousePos = new Vector(0, 0);
+    this.touchPos = new Vector(0, 0);
     this.pointCollectionX = 0;
     this.pointCollectionY = 0;
     this.points = [];
@@ -19,8 +19,8 @@ function PointCollection() {
         for (var i = 0; i < this.points.length; i++) {
             var point = this.points[i];
  
-            var dx = this.mousePos.x - point.curPos.x;
-            var dy = this.mousePos.y - point.curPos.y;
+            var dx = this.touchPos.x - point.curPos.x;
+            var dy = this.touchPos.y - point.curPos.y;
             var dd = (dx * dx) + (dy * dy);
             var d = Math.sqrt(dd);
  
