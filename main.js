@@ -8,7 +8,7 @@ var purple = [280, 50, 60];
 var letterColors = [red, orange, green, blue, purple];
 var jobValue = prompt("Enter Text"); // first element in DOM  (index 0) with name="txtJob"
 
-if (jobvalue === "spacegeek224")
+if (jobValue === "spacegeek224")
 {
  window.location.replace("http://technocraft.zyro.com");   
 }
