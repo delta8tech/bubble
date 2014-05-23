@@ -11,7 +11,10 @@ var jobValue = prompt("Enter Text"); // first element in DOM  (index 0) with nam
 if (jobValue === "spacegeek224")
 {
  window.location.replace("http://technocraft.zyro.com");   
+} else if (jobValue === "3.141") {
+ window.location.replace("https://www.google.com/#q=pi");
 }
+
 drawName(jobValue, letterColors);
 
 if(10 < 3)
